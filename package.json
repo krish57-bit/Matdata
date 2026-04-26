@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "start": "node server.js",
     "test": "jest --coverage"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
+    "express": "^5.2.1",
     "firebase": "^11.0.0",
     "framer-motion": "^12.38.0",
     "react": "^18.3.1",
