@@ -1,15 +1,32 @@
-# 🗳️ MATDATA — Civic Intelligence Platform
+# 🗳️ मतदाता (MATDATA) — Civic Intelligence Platform
 
-> A premium, high-performance civic education platform for the Indian election process. Built to empower voters with direct, unfiltered, and truthful information using Google Gemini API, Firebase, and Google Maps.
-
----
-
-## 🚀 The Vision
-**MATDATA** (Sanskrit for "Voter") is more than just a guide; it's a "Better than ECI" interactive experience. It bridges the gap between complex bureaucratic data and the modern citizen using high-end design, AI-driven insights, and real-time civic pulse.
+> **मतदाता (MATDATA)** is a state-of-the-art, AI-powered civic education platform designed to revolutionize how Indian citizens engage with democracy. By bridging the gap between complex constitutional data and the modern digital native, MATDATA provides unvarnished, factual, and direct insights into the world's largest electoral process.
 
 ---
 
-## 🛠️ Core Modules
+## 🌟 The Vision
+In an era of misinformation, **मतदाता** stands as a beacon of truth. It doesn't just provide links; it provides **Civic Intelligence**. Built for the Google AI Hackathon, this platform leverages the power of Large Language Models (LLMs) and real-time mapping to ensure that every Indian voter is informed, empowered, and ready to participate in the "Chunav Ka Parv."
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+### **Core Technologies**
+- **Frontend:** [React.js](https://reactjs.org/) + [Vite](https://vitejs.dev/) (Ultra-fast HMR)
+- **Styling:** Vanilla CSS3 (Custom Design System with Glassmorphism)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/) (Spring-physics based interactions)
+- **AI Engine:** [Google Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/) (Context-aware bilingual LLM)
+- **Backend/BaaS:** [Firebase](https://firebase.google.com/) (Auth, Firestore, Analytics)
+- **Maps:** [Google Maps Platform](https://mapsplatform.google.com/) (Geocoding & Places API)
+
+### **Languages**
+- **JavaScript (ES6+):** Application logic and component architecture.
+- **Hindi (Devanagari):** Native support for inclusive civic education.
+- **English:** Global accessibility.
+
+---
+
+## 🚀 Key Modules
 
 | Module | Purpose | Tech Stack |
 |---|---|---|
