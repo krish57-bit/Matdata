@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Election data: public read, no writes from client
+    match /election_data/{doc} {
+      allow read: if true;
+      allow write: if false;
+    }
+    // Sessions: any authenticated or anonymous session can read/write its own doc
+    match /sessions/{doc} {
+      allow read, write: if true;
+    }
+    // Quiz results: anyone can create, no reads (privacy)
+    match /quiz_results/{doc} {
+      allow read: if false;
+      allow create: if true;
+    }
+  }
+}
