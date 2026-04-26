@@ -62,7 +62,3 @@ firebase deploy
 - **3D EVM Module:** Interactive Three.js simulation of EVM/VVPAT mechanics.
 - **Regional Support:** Expansion to all 22 official languages of India.
 - **Constituency Pulse:** Real-time candidate comparison tools.
-
----
-*Created for the Google AI Hackathon — Empowering the world's largest democracy.*
-
