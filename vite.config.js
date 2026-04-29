@@ -10,7 +10,6 @@ export default defineConfig({
       output: {
         manualChunks: {
           firebase: ["firebase/app", "firebase/firestore", "firebase/analytics"],
-          gemini: ["@google/generative-ai"],
         },
       },
     },
