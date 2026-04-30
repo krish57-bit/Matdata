@@ -57,7 +57,8 @@ app.post('/api/chat', async (req, res) => {
 const distPath = path.join(__dirname, 'dist');
 app.use(express.static(distPath));
 
-app.get('/{*splat}', (req, res) => {
+// FIXED: Changed from '/{*splat}' to '*'
+app.get('*', (req, res) => {
   res.sendFile(path.join(distPath, 'index.html'));
 });
 
